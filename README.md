@@ -46,7 +46,8 @@ Deze broncode begint met een klein stukje code dat nog niet behandeld is (while 
 ```
 Dit stuk code hoef je niet aan te raken. 
 Het nut van dit stukje code is dat de applicatie blijft runnen totdat je zegt dat het moet stoppen.
-Zo wordt het dus een applicatie die je echt al kunt gebruiken.
+Zo wordt het dus een applicatie die je echt al kunt gebruiken. 
+Hoe dit werkt, wat het betekend en hoe je dit zelf kunt doen, wordt in een latere les behandeld.
 
 ## **Randvoorwaarden**  
 De oplossing moet voldoen aan de volgende eisen:  
