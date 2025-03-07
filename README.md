@@ -1,4 +1,4 @@
-#TODO Applicatie**
+# TODO Applicatie
 
 ## **Inleiding**  
 In deze les hebben we gewerkt met variabelen, arrays, ArrayLists en de Scanner.  
