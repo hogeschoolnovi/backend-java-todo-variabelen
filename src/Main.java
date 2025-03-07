@@ -1,15 +1,20 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
-//        Maak een scanner om input te vragen
-//        Maak een arraylist waar we alle todos in op gaan slaan
+//        MAak een scanner en een arraylist
+        Scanner scanner = new Scanner(System.in);
+
+        ArrayList<String[]> todos = new ArrayList<>();
 
         while(true) {
             System.out.println("Wil je nog een todo toevoegen?");
-            System.out.println("Kies 1 voor nee, kies iets anders voor ja");
+            System.out.println("Kies 1 voor ja, kies 2 voor nee:");
             int startKeuze = scanner.nextInt();
             scanner.nextLine();
-            if(startKeuze == 1){
+            if(startKeuze == 2){
                 scanner.close();
                 return;
             }
@@ -18,27 +23,25 @@ public class Main {
 
             // Voeg een TODO toe
             System.out.println("Voeg een TODO toe");
-            System.out.print("Geef de datum: ");
-//          code hier ...
+            System.out.print("Invoer voor de datum: ");
+            String datum = scanner.nextLine();
 
-            System.out.println("Geef de inhoud: ");
-//            code hier...
+            System.out.println("Invoer voor de inhoud: ");
+            String inhoud = scanner.nextLine();
 
-//            Maak een Array [datum, inhoud] en voeg dat toe aan de Arraylist
-//            code hier...
-
+            String[] newTodo = {datum, inhoud};
+            todos.add(newTodo);
 
             // Vraag welke TODO de gebruiker wil zien
             System.out.println("Welke TODO wil je zien?");
             System.out.print("Kies een nummer: ");
-//            code hier...
+            int keuze = scanner.nextInt();
 
-            // Print de gekozen TODO in de vorm:
-//            "TODO keuze ..."
-//            "Datum ...."
-//            "Inhoud ..."
-
-//            code hier...
+            // Print de gekozen TODO
+            String[] gekozenTodo = todos.get(keuze - 1);
+            System.out.println("\nTODO " + keuze + ":");
+            System.out.println("Datum: " + gekozenTodo[0]);
+            System.out.println("Inhoud: " + gekozenTodo[1]);
         }
 
     }
