@@ -30,6 +30,24 @@ Datum: 2024-06-12
 Inhoud: Boodschappen doen
 ```
 
+**Let op:**  
+Om deze opdracht te maken, moet je de broncode uit deze repository kopieren (Main.java). 
+Deze broncode begint met een klein stukje code dat nog niet behandeld is (while en if). 
+```java
+    while(true) {
+            System.out.println("Wil je nog een todo toevoegen?");
+            System.out.println("Kies 1 voor nee, kies iets anders voor ja");
+            int startKeuze = scanner.nextInt();
+            scanner.nextLine();
+            if(startKeuze == 1){
+                scanner.close();
+                return;
+            }
+```
+Dit stuk code hoef je niet aan te raken. 
+Het nut van dit stukje code is dat de applicatie blijft runnen totdat je zegt dat het moet stoppen.
+Zo wordt het dus een applicatie die je echt al kunt gebruiken.
+
 ## **Randvoorwaarden**  
 De oplossing moet voldoen aan de volgende eisen:  
 - Gebruik alleen Scanner, variabelen, arrays en ArrayLists.  
@@ -55,7 +73,6 @@ De oplossing moet voldoen aan de volgende eisen:
 ## **Bonusopdracht**  
 Als de basisopdracht is afgerond, kun je proberen om een van de volgende (uitdagende) bonussen te implementeren:  
 1. Laat de gebruiker een specifieke TODO verwijderen.
-2. Sla TODO’s op in een bestand (`todos.txt`), zodat ze blijven bestaan na het afsluiten van de applicatie.  
-Hiervoor zul je gebruik moeten maken van een "FileWriter". Probeer hier een oplossing voor te vinden op het internet.
-3. Toon alle TODO’s.  
+2. Toon alle TODO’s.  
 Hiervoor zul je gebruik moeten maken van een for-loop. Dit behandelen we in een latere les.
+3. Zet het maken van een TODO in een aparte methode en roep deze aan. Hier gaan we het de volgende les over hebben.
