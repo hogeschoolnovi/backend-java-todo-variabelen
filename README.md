@@ -61,10 +61,10 @@ De oplossing moet voldoen aan de volgende eisen:
 ## **Stappenplan**  
 1. Maak een Scanner-object om invoer van de gebruiker te verwerken (_tip: noem deze "scanner"_).  
 2. Maak een ArrayList om de TODO’s in op te slaan.  
-3. Vraag de gebruiker (met behulpt van de scanner) of hij een TODO wil toevoegen.  
+3. Vraag de gebruiker (met behulpt van de scanner) of deze een TODO wil toevoegen.  
 4. Vraag om input voor een datum en beschrijving en sla deze op in een String-array.  
 5. Voeg de array toe aan de ArrayList.  
-6. Vraag de gebruiker welk TODO-nummer hij wil bekijken en haal dit op zonder loop. (_Let hier bij op waar je begint met tellen_)  
+6. Vraag de gebruiker welk TODO-nummer deze wil bekijken en haal dit op zonder loop. (_Let hier bij op waar je begint met tellen_)  
 7. Druk de gevraagde TODO af in het volgende formaat:  
    ```
    TODO 1:
@@ -76,6 +76,6 @@ De oplossing moet voldoen aan de volgende eisen:
 ## **Bonusopdracht**  
 Als de basisopdracht is afgerond, kun je proberen om een van de volgende (uitdagende) bonussen te implementeren:  
 1. Laat de gebruiker een specifieke TODO verwijderen.
-2. Toon alle TODO’s.  
-Hiervoor zul je gebruik moeten maken van een for-loop. Dit behandelen we in een latere les.
-3. Zet het maken van een TODO in een aparte methode en roep deze aan. Hier gaan we het de volgende les over hebben.
+2. Zet het maken van een TODO in een aparte methode en roep deze aan. Hier gaan we het de volgende les over hebben.
+3. [Moeilijk] Toon alle TODO’s.  
+    Hiervoor zul je gebruik moeten maken van een loop. Dit behandelen we in een latere les pas.
