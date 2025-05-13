@@ -7,6 +7,8 @@ Met deze bouwblokken kan een eenvoudige applicatie worden gemaakt die informatie
 In deze opdracht wordt een TODO-applicatie maken. 
 Dit is een handige tool om te hebben aan het begin van je studie, omdat je zo kunt bijhouden wat je allemaal nog wilt leren. 
 
+Main.java vind je in de `src` map
+
 ## **Opdrachtbeschrijving**  
 De applicatie is een TODO-lijst waarin de gebruiker:  
 - Een nieuwe TODO kan toevoegen.  
